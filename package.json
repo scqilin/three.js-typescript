@@ -1,0 +1,33 @@
+{
+  "name": "three.js-typescript",
+  "version": "1.0.0",
+  "description": "three.js-typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config ./webpack.config.js",
+    "server": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scqilin/three.js-typescript.git"
+  },
+  "keywords": [
+    "three.js",
+    "typescript"
+  ],
+  "author": "qilin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scqilin/three.js-typescript/issues"
+  },
+  "homepage": "https://github.com/scqilin/three.js-typescript#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
