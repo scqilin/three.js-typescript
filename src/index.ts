@@ -1,6 +1,5 @@
-import main from "./main"
+import {Threescene} from "./util/scene"
+import "./assets/css/index.css"
 
-
-
-let ts1 = new main();
-ts1.speak();
+let s1 = new Threescene()
+s1.addObject()
