@@ -15,7 +15,7 @@ module.exports = {
     },
     plugins:[
         new HtmlWebpalckPlugin({
-            title:'three.js-typescript'
+            template:'./src/index.html'            
         })
     ],    
     module:{
