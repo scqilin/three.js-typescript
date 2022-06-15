@@ -1,6 +1,6 @@
 
 import * as THREE from "three"
-import OrbitControls from "three-orbitcontrols"
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import * as TWEEN from "@tweenjs/tween.js"
 
 class Sphere {

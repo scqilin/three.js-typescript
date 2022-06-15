@@ -4,12 +4,12 @@ const HtmlWebpalckPlugin = require('html-webpack-plugin')
 module.exports = {
     entry:'./src/index.ts',
     output:{
-        path:path.resolve(__dirname,'public'),
+        path:path.resolve(__dirname,'docs'),
         filename:'bundle.js'
     },
     devtool:'inlin-source-map',
     devServer:{
-        contentBase:'./public',
+        contentBase:'./docs',
         open:true,
         port:9001
     },
